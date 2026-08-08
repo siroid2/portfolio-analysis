@@ -39,7 +39,7 @@ BENCHMARK_OPTIONS = [
         "ticker": "SPY",
         "currency": "USD",
         "description": "Grandes sociétés américaines",
-        "default": 60.0,
+        "default": 30.0,
     },
     {
         "key": "nasdaq",
@@ -47,7 +47,7 @@ BENCHMARK_OPTIONS = [
         "ticker": "QQQ",
         "currency": "USD",
         "description": "Croissance et technologie US",
-        "default": 0.0,
+        "default": 20.0,
     },
     {
         "key": "dow",
@@ -55,7 +55,7 @@ BENCHMARK_OPTIONS = [
         "ticker": "DIA",
         "currency": "USD",
         "description": "30 grandes sociétés américaines",
-        "default": 0.0,
+        "default": 10.0,
     },
     {
         "key": "tsx",
@@ -63,7 +63,7 @@ BENCHMARK_OPTIONS = [
         "ticker": "XIC.TO",
         "currency": "CAD",
         "description": "Marché canadien diversifié",
-        "default": 0.0,
+        "default": 40.0,
     },
     {
         "key": "international",
@@ -87,7 +87,7 @@ BENCHMARK_OPTIONS = [
         "ticker": "XBB.TO",
         "currency": "CAD",
         "description": "Marché obligataire canadien",
-        "default": 40.0,
+        "default": 0.0,
     },
     {
         "key": "bonds_intl",
