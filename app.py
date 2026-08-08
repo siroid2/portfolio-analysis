@@ -665,12 +665,12 @@ with st.sidebar:
     st.markdown("---")
     client_name = st.text_input("Nom du client", placeholder="Client ou ménage")
     base_currency = st.selectbox("Devise de l’analyse", ["CAD", "USD"], index=0)
-    start_date = st.date_input("Date de début", value=years_ago(today, 5), max_value=today)
+    start_date = st.date_input("Date de début", value=years_ago(today, 15), max_value=today)
     end_date = st.date_input("Date de fin", value=today, max_value=today)
     rebalancing = st.selectbox(
         "Rééquilibrage",
         ["Mensuel", "Trimestriel", "Annuel", "Aucun", "Quotidien"],
-        index=0,
+        index=2,
     )
     st.caption(REBALANCING_HELP[rebalancing])
     risk_free_percent = st.number_input(
