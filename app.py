@@ -100,12 +100,38 @@ BENCHMARK_OPTIONS = [
 ]
 
 
+# EXAMPLE_HOLDINGS = pd.DataFrame(
+#     [
+#         {"Nom": "Actions américaines", "Symbole": "VUN.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 45.0},
+#         {"Nom": "Actions canadiennes", "Symbole": "XIC.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 20.0},
+#         {"Nom": "Actions internationales", "Symbole": "XEF.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 15.0},
+#         {"Nom": "Obligations canadiennes", "Symbole": "XBB.TO", "Type": "FNB obligataire", "Devise": "CAD", "Poids (%)": 20.0},
+#     ]
+# )
+
 EXAMPLE_HOLDINGS = pd.DataFrame(
     [
-        {"Nom": "Actions américaines", "Symbole": "VUN.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 45.0},
-        {"Nom": "Actions canadiennes", "Symbole": "XIC.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 20.0},
-        {"Nom": "Actions internationales", "Symbole": "XEF.TO", "Type": "FNB", "Devise": "CAD", "Poids (%)": 15.0},
-        {"Nom": "Obligations canadiennes", "Symbole": "XBB.TO", "Type": "FNB obligataire", "Devise": "CAD", "Poids (%)": 20.0},
+        {"Nom": "AAPL",   "Symbole": "AAPL",   "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "AEM.TO", "Symbole": "AEM.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 3},
+        {"Nom": "AMZN",   "Symbole": "AMZN",   "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "ATD.TO", "Symbole": "ATD.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "BRK-B",  "Symbole": "BRK-B",  "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "CNR.TO", "Symbole": "CNR.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "COKE",   "Symbole": "COKE",   "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "ED",     "Symbole": "ED",     "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "ENB.TO", "Symbole": "ENB.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "FTS.TO", "Symbole": "FTS.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "GOOGL",  "Symbole": "GOOGL",  "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "IAG.TO", "Symbole": "IAG.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "JPM",    "Symbole": "JPM",    "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "MCD",    "Symbole": "MCD",    "Type": "Action", "Devise": "USD", "Poids (%)": 2},
+        {"Nom": "MSFT",   "Symbole": "MSFT",   "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "RY.TO",  "Symbole": "RY.TO",  "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "TD.TO",  "Symbole": "TD.TO",  "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "UNH",    "Symbole": "UNH",    "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "WCN.TO", "Symbole": "WCN.TO", "Type": "Action", "Devise": "CAD", "Poids (%)": 5},
+        {"Nom": "WMT",    "Symbole": "WMT",    "Type": "Action", "Devise": "USD", "Poids (%)": 5},
+        {"Nom": "XOM",    "Symbole": "XOM",    "Type": "Action", "Devise": "USD", "Poids (%)": 5},
     ]
 )
 
